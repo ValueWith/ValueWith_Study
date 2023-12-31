@@ -5,6 +5,7 @@
 비동기는 **병렬적**으로 작동하는 방식입니다. 요청을 보내면 응답과 관계 없이 다음 동작을 실행하는 방식입니다.
 
 # 자바스크립트의 비동기 처리
+![synchronous-asynchronous-javascript](https://github.com/geniee1220/study-rocket/assets/110911811/c468be55-eaa3-4371-a434-6f4fce1d85c1)
 
 자바스크립트는 싱글 스레드로 돌아가는 언어이기 때문에 한 번에 한 작업만, 하나의 메인 스레드에서 처리될 수 있습니다. 다른 작업은 앞선 작업이 끝나야 수행됩니다. 즉, 자바스크립트는 **동기식 언어**입니다.
 
@@ -51,6 +52,7 @@ setTimeoutWithCallback(() => console.log('3'));
 ```
 
 ### **🔥 콜백 지옥과 파멸의 피라미드**
+![](https://github.com/geniee1220/study-rocket/assets/110911811/4e8da275-4a5a-475e-94d6-8403bd274979)
 
 코드 순서를 보장하기 위해 콜백 함수를 중첩해서 구현하는 경우 코드 가독성이 떨어지고 이해하기도 어려워지는데 이를 콜백 지옥(callback hell) 또는 파멸의 피라미드(Pyramid of Doom)라고 부릅니다.
 
